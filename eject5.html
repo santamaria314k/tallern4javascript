@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> taller de retos  javascript</title> 
+    <link rel="stylesheet" href="CSS/style.css">
+
+</head>
+<body>
+    <header><h1>Taller 4  FIGURAS</h1></header>
+    <div class="container">
+        <div class="card">
+            <h1>Círculo</h1>
+            <div class="buttons">
+                <button onclick="mostrarModal('Círculo')">Perímetro</button>
+                <button onclick="mostrarModal('Círculo')">Área</button>
+            </div>
+        </div>
+    
+        <div class="card">
+            <h1>Triángulo</h1>
+            <div class="buttons">
+                <button onclick="mostrarModal('Triángulo')">Perímetro</button>
+                <button onclick="mostrarModal('Triángulo')">Área</button>
+            </div>
+        </div>
+    
+        <div class="card">
+            <h1>Rectángulo</h1>
+            <div class="buttons">
+                <button onclick="mostrarModal('Rectángulo')">Perímetro</button>
+                <button onclick="mostrarModal('Rectángulo')">Área</button>
+            </div>
+        </div>
+    
+        <div class="card">
+            <h1>Cuadrado</h1>
+            <div class="buttons">
+                <button onclick="mostrarModal('Cuadrado')">Perímetro</button>
+                <button onclick="mostrarModal('Cuadrado')">Área</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="cerrarModal()">&times;</span>
+            <h3 id="modalTitle">Título de la figura</h3>
+            <form id="modalForm">
+            </form>
+            <button onclick="calcular()">Calcular</button>
+            <button onclick="cerrarModal()">Cerrar</button>
+        </div>
+    </div>
+
+    <script src="JS/js5nn.js" >
+        
+    </script>
+    
+
+</body>
+</html>
